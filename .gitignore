@@ -3,3 +3,9 @@ __pycache__/
 venv/
 .env
 .venv
+.vscode
+# Ignore build artifacts
+*.egg-info/
+dist/
+build/
+__pycache__/
