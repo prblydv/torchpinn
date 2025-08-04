@@ -1,0 +1,1 @@
+# Example: Black-Scholes equation

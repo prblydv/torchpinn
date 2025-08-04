@@ -1,0 +1,1 @@
+# Abstract solver class
