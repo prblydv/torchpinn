@@ -10,10 +10,11 @@ class PDE(ABC):
     def residual(self, x, t, model):
         """Compute the PDE residual at input points."""
         pass
-
+ 
 
 class BlackScholesPDE(PDE):
     def __init__(self, r: float = 0.05, sigma: float = 0.2):
+
         self.r = r
         self.sigma = sigma
 
