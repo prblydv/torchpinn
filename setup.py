@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-
+ 
 setup(
     name='torchpinn',
     version='0.1.0',
