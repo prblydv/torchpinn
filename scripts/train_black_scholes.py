@@ -15,5 +15,6 @@ def main():
     solver = AdamSolver(model=model, pde=pde, domain_sampler=domain_sampler, epochs=2000, lr=1e-3)
     solver.train()
 
+
 if __name__ == "__main__":
     main()
