@@ -5,6 +5,7 @@ import torch.nn as nn
 
 # later extend it to support Fourier features, residual connections, etc.
 
+
 class PINN(nn.Module):
     def __init__(self, in_dim=2, out_dim=1, hidden_layers=4, hidden_units=64, activation=nn.Tanh):
         super().__init__()
