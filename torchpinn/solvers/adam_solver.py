@@ -20,6 +20,7 @@ class AdamSolver:
 
     def train(self):
         self.model.train()
+
         for epoch in range(1, self.epochs + 1):
             x, t = self.domain_sampler()
             loss = self.compute_loss(x, t)
