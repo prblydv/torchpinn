@@ -5,7 +5,7 @@ import torch.optim as optim
 
 class AdamSolver:
     def __init__(self, model, pde, domain_sampler, epochs=5000, lr=1e-3, verbose=True):
-        self.model = model
+        self.model = model 
         self.pde = pde
         self.domain_sampler = domain_sampler
         self.epochs = epochs
