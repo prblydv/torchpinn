@@ -6,5 +6,6 @@ setup(
     description='A production-ready PyTorch library for Physics-Informed Neural Networks',
     author='Your Name', 
     packages=find_packages(),
+
     install_requires=['torch', 'numpy', 'matplotlib', 'scipy'],
 )
