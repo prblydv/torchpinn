@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
  
-setup( 
+setup(  
     name='torchpinn',
     version='0.1.0',
     description='A production-ready PyTorch library for Physics-Informed Neural Networks',
