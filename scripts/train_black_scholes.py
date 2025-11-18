@@ -9,7 +9,7 @@ def domain_sampler(batch_size=512):
     t = torch.rand(batch_size, 1) * 1.0  # t in [0, 1]
     return x, t
 
-def main():
+def main(): 
     model = PINN(in_dim=2, out_dim=1)
     pde = BlackScholesPDE(r=0.05, sigma=0.2)
     solver = AdamSolver(model=model, pde=pde, domain_sampler=domain_sampler, epochs=2000, lr=1e-3)
