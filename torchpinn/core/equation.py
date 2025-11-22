@@ -20,6 +20,7 @@ class BlackScholesPDE(PDE):
 
     def residual(self, x, t, model):
         x.requires_grad_(True)
+
         t.requires_grad_(True)
         u = model(torch.cat([x, t], dim=1))
 
