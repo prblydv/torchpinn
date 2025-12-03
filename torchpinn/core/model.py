@@ -10,7 +10,7 @@ import torch.nn as nn
 class PINN(nn.Module):
     def __init__(self, in_dim=2, out_dim=1, hidden_layers=4, hidden_units=64, activation=nn.Tanh):
         super().__init__()
-        layers = []
+        layers = [] 
 
         layers.append(nn.Linear(in_dim, hidden_units))
         layers.append(activation())
