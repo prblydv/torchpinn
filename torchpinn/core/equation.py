@@ -29,4 +29,5 @@ class BlackScholesPDE(PDE):
         u_xx = torch.autograd.grad(u_x, x, grad_outputs=torch.ones_like(u_x), create_graph=True)[0]
 
         bs_residual = u_t + 0.5 * self.sigma**2 * x**2 * u_xx + self.r * x * u_x - self.r * u
+
         return bs_residual
