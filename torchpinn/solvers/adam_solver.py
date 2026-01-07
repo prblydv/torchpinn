@@ -10,7 +10,7 @@ class AdamSolver:
         self.domain_sampler = domain_sampler
         self.epochs = epochs
         self.lr = lr
-
+ 
         self.verbose = verbose
         self.optimizer = optim.Adam(self.model.parameters(), lr=self.lr)
 
