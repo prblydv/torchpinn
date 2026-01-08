@@ -2,7 +2,7 @@
 
 import torch
 import torch.nn as nn
-
+ 
  
 # later extend it to support Fourier features, residual connections, etc.
 
