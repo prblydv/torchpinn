@@ -2,7 +2,7 @@
 import torch
 from torchpinn.core.equation import BlackScholesPDE
 from torchpinn.core.model import PINN
-from torchpinn.solvers.adam_solver import AdamSolver
+from torchpinn.solvers.adam_solver import AdamSolver 
 
 def domain_sampler(batch_size=512):
     x = torch.rand(batch_size, 1) * 1.0  # x in [0, 1]
