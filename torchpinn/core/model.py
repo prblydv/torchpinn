@@ -19,7 +19,7 @@ class PINN(nn.Module):
             layers.append(nn.Linear(hidden_units, hidden_units))
             layers.append(activation())
 
-        layers.append(nn.Linear(hidden_units, out_dim))
+        layers.append(nn.Linear(hidden_units, out_dim)) 
         self.net = nn.Sequential(*layers)
 
     def forward(self, x):
