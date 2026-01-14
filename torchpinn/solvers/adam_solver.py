@@ -29,5 +29,6 @@ class AdamSolver:
             loss.backward()
             self.optimizer.step()
 
+
             if self.verbose and epoch % 100 == 0:
                 print(f"[{epoch}/{self.epochs}] Loss: {loss.item():.6f}")
