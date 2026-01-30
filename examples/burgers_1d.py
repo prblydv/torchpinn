@@ -1,1 +1,1 @@
-# Example: 1D Burgers equation 
+# Example: 1D Burgers equation  
